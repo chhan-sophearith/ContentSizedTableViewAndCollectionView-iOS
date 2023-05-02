@@ -16,6 +16,8 @@
 		FA50C38F2A00B62500F3CDEF /* ContentSizedTableViewAndConllectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50C38E2A00B62500F3CDEF /* ContentSizedTableViewAndConllectionViewTests.swift */; };
 		FA50C3992A00B62500F3CDEF /* ContentSizedTableViewAndConllectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50C3982A00B62500F3CDEF /* ContentSizedTableViewAndConllectionViewUITests.swift */; };
 		FA50C39B2A00B62500F3CDEF /* ContentSizedTableViewAndConllectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50C39A2A00B62500F3CDEF /* ContentSizedTableViewAndConllectionViewUITestsLaunchTests.swift */; };
+		FA50C3A92A00B65500F3CDEF /* ContentSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50C3A82A00B65500F3CDEF /* ContentSizedTableView.swift */; };
+		FA50C3AD2A00B6CB00F3CDEF /* ContentSizedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50C3AC2A00B6CB00F3CDEF /* ContentSizedCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FA50C3942A00B62500F3CDEF /* ContentSizedTableViewAndConllectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContentSizedTableViewAndConllectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA50C3982A00B62500F3CDEF /* ContentSizedTableViewAndConllectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSizedTableViewAndConllectionViewUITests.swift; sourceTree = "<group>"; };
 		FA50C39A2A00B62500F3CDEF /* ContentSizedTableViewAndConllectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSizedTableViewAndConllectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA50C3A82A00B65500F3CDEF /* ContentSizedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSizedTableView.swift; sourceTree = "<group>"; };
+		FA50C3AC2A00B6CB00F3CDEF /* ContentSizedCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSizedCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				FA50C3792A00B62400F3CDEF /* SceneDelegate.swift */,
 				FA50C37B2A00B62400F3CDEF /* ViewController.swift */,
 				FA50C37D2A00B62400F3CDEF /* Main.storyboard */,
+				FA50C3AA2A00B66800F3CDEF /* CommonViews */,
 				FA50C3802A00B62500F3CDEF /* Assets.xcassets */,
 				FA50C3822A00B62500F3CDEF /* LaunchScreen.storyboard */,
 				FA50C3852A00B62500F3CDEF /* Info.plist */,
@@ -125,6 +130,31 @@
 				FA50C39A2A00B62500F3CDEF /* ContentSizedTableViewAndConllectionViewUITestsLaunchTests.swift */,
 			);
 			path = ContentSizedTableViewAndConllectionViewUITests;
+			sourceTree = "<group>";
+		};
+		FA50C3A72A00B63D00F3CDEF /* ContentSizedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FA50C3A82A00B65500F3CDEF /* ContentSizedTableView.swift */,
+			);
+			path = ContentSizedTableView;
+			sourceTree = "<group>";
+		};
+		FA50C3AA2A00B66800F3CDEF /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				FA50C3AB2A00B69600F3CDEF /* ContentSizedCollectionView */,
+				FA50C3A72A00B63D00F3CDEF /* ContentSizedTableView */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		FA50C3AB2A00B69600F3CDEF /* ContentSizedCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FA50C3AC2A00B6CB00F3CDEF /* ContentSizedCollectionView.swift */,
+			);
+			path = ContentSizedCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +290,9 @@
 			files = (
 				FA50C37C2A00B62400F3CDEF /* ViewController.swift in Sources */,
 				FA50C3782A00B62400F3CDEF /* AppDelegate.swift in Sources */,
+				FA50C3AD2A00B6CB00F3CDEF /* ContentSizedCollectionView.swift in Sources */,
 				FA50C37A2A00B62400F3CDEF /* SceneDelegate.swift in Sources */,
+				FA50C3A92A00B65500F3CDEF /* ContentSizedTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
