@@ -1,13 +1,13 @@
 //
-//  ContentSizedTableViewAndConllectionViewUITests.swift
-//  ContentSizedTableViewAndConllectionViewUITests
+//  ContentSizedTableViewAndCollectionViewUITests.swift
+//  ContentSizedTableViewAndCollectionViewUITests
 //
 //  Created by Chhan Sophearith on 2/5/23.
 //
 
 import XCTest
 
-final class ContentSizedTableViewAndConllectionViewUITests: XCTestCase {
+final class ContentSizedTableViewAndCollectionViewUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,13 +1,13 @@
 //
-//  ContentSizedTableViewAndConllectionViewUITestsLaunchTests.swift
-//  ContentSizedTableViewAndConllectionViewUITests
+//  ContentSizedTableViewAndCollectionViewUITestsLaunchTests.swift
+//  ContentSizedTableViewAndCollectionViewUITests
 //
 //  Created by Chhan Sophearith on 2/5/23.
 //
 
 import XCTest
 
-final class ContentSizedTableViewAndConllectionViewUITestsLaunchTests: XCTestCase {
+final class ContentSizedTableViewAndCollectionViewUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
